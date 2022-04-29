@@ -1,3 +1,10 @@
+:root {
+    --white: #FFFFFF;
+    --dark-grey: #3A404E;
+    --grey: #667085;
+    --black: #101828;
+    --wine: #8E2424;
+}
 
 body {
     font-family: 'Inter', sans-serif;
@@ -10,7 +17,7 @@ body {
     width: 100vw;
     box-sizing: border-box;
     padding: 18px 112px;
-    background-color: #FFFFFF;
+    background-color: var(--white);
 }
 
 .box {
@@ -30,7 +37,7 @@ body {
 }
 
 .logo-txt {
-    color: #3A404E;
+    color: var(--dark-grey);
     font-size: 18px;
     font-weight: 500;
     line-height: 24px;
@@ -39,7 +46,7 @@ body {
 .menu {
     font-size: 16px;
     font-weight: 500;
-    color: #667085;
+    color: var(--grey) ;
 }
 
 .nav-list {
@@ -49,21 +56,21 @@ body {
 
 a {
     text-decoration: none;
-    color: #667085;;
+    color: var(--grey);
 }
 
 .login {
     display: flex;
     align-items: center;
     gap: 30px;
-    color: #667085;
+    color:var(--grey);
     font-weight: 500;
     font-size: 16px;
 }
 
 .button-login {
-    color: #FFFFFF;
-    background-color: #8E2424;
+    color: var(--white);
+    background-color: var(--wine);
     box-sizing: border-box;
     padding: 10px 18px;
     font-weight: 500;
@@ -72,4 +79,39 @@ a {
     border: none;
     border-radius: 8px;
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+.highlight {
+    box-sizing: border-box;
+    padding-top: 67px;
+    padding-bottom: 107px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.highlight-title {
+    color: var(--wine);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.highlight-subtitle {
+    text-align: center;
+    color: var(--black);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    margin-top: 24px;
+}
+
+.highlight-text {
+    max-width: 791px;
+    text-align: center;
+    max-width: 791px;
+    color: var(--grey);
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 36px;
 }
