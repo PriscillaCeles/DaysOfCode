@@ -115,3 +115,82 @@ a {
     font-size: 20px;
     margin-top: 36px;
 }
+
+.highlight-ditails {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    box-sizing: border-box;
+    padding: 0 112px 96px;
+}
+
+.highlight-ditails__card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.highlight-ditails__card--number {
+    color: var(--wine);
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.highlight-ditails__card--title {
+    color: var(--black);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.highlight-ditails__card--text {
+    max-width: 280px;
+    color: var(--grey);
+    text-align: justify;
+}
+
+.call__container {
+    box-sizing: border-box;
+    padding: 96px 112px;
+}
+
+.call__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.call__box--title {
+    width: fit-content;
+    color: var(--wine);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    box-sizing: border-box;
+    padding: 4px 12px;
+}
+
+.call__box--subtitle {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--black);
+}
+
+.call__box--description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--grey);
+}
+
+.call__box--image {
+    width: 100%;
+    margin-top: 64px;
+}
